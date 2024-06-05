@@ -1,5 +1,13 @@
 # hackerone
 
+
+Command:
+git clone https://github.com/zereefsec/hackerone.git 
+chmod +x hackerone/*
+./h1_scope.sh
+
+
+
 programs.py # get all hackerone programs and outputs as programs.json  
 scope.py # extracts program names from programs.json, gets scope of all the programs and outputs as scope.json  
 inscope.py # extracts inscope assets from scope.json and outputs as inscope.json  
