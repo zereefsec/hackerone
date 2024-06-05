@@ -13,9 +13,9 @@ Commands:
 <-------------Install the tools----------------->  
 git clone https://github.com/zereefsec/tools.git  
 cd tools  
-chmod +x install.sh
-./install.sh
-cd ..
+chmod +x install.sh  
+./install.sh  
+cd ..  
 
 <-------------Setup and run the scope gathering scripts----------------->  
 git clone https://github.com/zereefsec/hackerone.git   
