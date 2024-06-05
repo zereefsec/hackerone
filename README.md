@@ -9,10 +9,34 @@ nobounty.py # extracts inscope assets which are not eligible for bounty from ins
 
 
 
-Command:  
+Commands:  
+<-------------Install the tools----------------->  
+git clone https://github.com/zereefsec/tools.git  
+cd tools  
+chmod +x install.sh
+./install.sh
+cd ..
+
+<-------------Setup and run the scope gathering scripts----------------->
 git clone https://github.com/zereefsec/hackerone.git   
 chmod +x hackerone/*  
+cd hackerone  
 ./h1_scope.sh  
+
+<-------------Run the scan on targets which are bounty eligible----------------->  
+tmux new -s bounty  
+cd bounty  
+./bountyscan.sh  
+Ctrl+B (release after pressing ) then press D  
+You can reattach to the session by the command: tmux attach -t bounty  
+
+<-------------Run the scan on targets which are not bounty eligible----------------->  
+tmux new -s nobounty  
+cd nobounty  
+./nobountyscan.sh  
+Ctrl+B (release after pressing ) then press D  
+You can reattach to the session by the command: tmux attach -t nobounty  
+
 
 
 
