@@ -1,3 +1,4 @@
+export PATH=$PATH:~/go/bin
 python3 bounty_domain.py bounty.json bounty_domain.json bounty_domain.txt WILDCARD URL OTHER
 cat bounty_domain.txt | anew domains.txt
 subfinder -dL domains.txt -all -o subdomains.txt
