@@ -1,7 +1,7 @@
 # hackerone
 
 
-Command:
+Command:  
 git clone https://github.com/zereefsec/hackerone.git   
 chmod +x hackerone/*  
 ./h1_scope.sh  
