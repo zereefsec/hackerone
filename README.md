@@ -17,7 +17,7 @@ chmod +x install.sh
 ./install.sh
 cd ..
 
-<-------------Setup and run the scope gathering scripts----------------->
+<-------------Setup and run the scope gathering scripts----------------->  
 git clone https://github.com/zereefsec/hackerone.git   
 chmod +x hackerone/*  
 cd hackerone  
