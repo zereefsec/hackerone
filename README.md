@@ -28,6 +28,7 @@ tmux new -s bounty
 cd bounty  
 ./bountyscan.sh  
 Ctrl+B (release after pressing ) then press D  
+tmux list-sessions  
 You can reattach to the session by the command: tmux attach -t bounty  
 
 <-------------Run the scan on targets which are not bounty eligible----------------->  
@@ -35,6 +36,7 @@ tmux new -s nobounty
 cd nobounty  
 ./nobountyscan.sh  
 Ctrl+B (release after pressing ) then press D  
+tmux list-sessions  
 You can reattach to the session by the command: tmux attach -t nobounty  
 
 
