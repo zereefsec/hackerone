@@ -1,6 +1,6 @@
 # hackerone
 
-
+checklist.md # checklist of recon items and vulnerabilities to hunt  
 programs.py # get all hackerone programs and outputs as programs.json  
 scope.py # extracts program names from programs.json, gets scope of all the programs and outputs as scope.json  
 inscope.py # extracts inscope assets from scope.json and outputs as inscope.json  
