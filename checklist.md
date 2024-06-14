@@ -9,12 +9,14 @@
 8. technology - wappalyzer(overall technology), targeted technology recon for vuln scan. 
 9. swagger files  
 10. HTTP requests - extraction from JS files and html pages. curl request with http methods - extracted from JS files and swagger(.json also)  
-11. params  
+11. params - Arjun  
   
 #Unauthenticated vulnerabilities scan  (targetted recon and vulnerability scan)  
-1. Unauthenticated endpoint access  
-2. Secrets - htmls, js files (later code repo, mobile apps)  
-3. Default credentials (identify login pages, identify technology)  
+1. Subdomain Takeover  
+2. Unauthenticated endpoint access  
+3. Secrets - htmls, js files (later code repo, mobile apps)
+4. Sensitive files
+5. Default credentials (identify login pages, identify technology)  
   
   
 #Authentication Vulnerabilities  
