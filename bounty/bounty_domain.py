@@ -4,7 +4,7 @@ import re
 
 def extract_links_urls_domains(json_file, output_file, txt_file, asset_types):
     # Domain patterns to exclude
-    excluded_patterns = [r'play\.google\.com', r'apps\.apple\.com', r'com\.', r'\.png$', r'\.exe$', 'login.php', 'xmlrpc.php']
+    excluded_patterns = [r'play\.google\.com', r'chrome\.google\.com', r'chromewebstore\.google\.com', r'developers\.google\.com', r'docs\.google\.com', r'drive\.google\.com', r'www\.google\.com', r'apps\.apple\.com', r'com\.', r'\.png$', r'\.exe$', 'login.php', 'xmlrpc.php']
 
     def is_excluded(domain):
         for pattern in excluded_patterns:
